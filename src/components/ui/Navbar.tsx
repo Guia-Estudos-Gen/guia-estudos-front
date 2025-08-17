@@ -1,12 +1,17 @@
 import { NavLink } from 'react-router-dom';
-import ThemeChanger from './ui/ThemeChanger';
+import ThemeChanger from './ThemeChanger';
 
 function Navbar() {
   const items = [
     {
-      id: 1,
+      id: 0,
       name: 'home',
       icon: '🏠',
+    },
+    {
+      id: 1,
+      name: 'base',
+      icon: '📚',
     },
     {
       id: 2,
@@ -33,7 +38,9 @@ function Navbar() {
             <NavLink
               to={`/${item.name}`}
               className={({ isActive }: { isActive: boolean }) =>
-                `uppercase text-2xl font-bold hover:text-primary hover:underline underline-offset-8 hover:animate-pulse ${isActive ? ' underline text-primary' : ''}`
+                `uppercase text-2xl font-bold hover:text-primary hover:underline underline-offset-8 hover:animate-pulse ${
+                  isActive ? ' underline text-primary' : ''
+                }`
               }
             >
               {item.name} {item.icon}
