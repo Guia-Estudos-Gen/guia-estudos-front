@@ -5,6 +5,7 @@ import Navbar from './components/ui/Navbar';
 import Base from './components/general/Base';
 import JsBase from './components/languages/javascript/JsBase';
 import JavaBase from './components/languages/java/JavaBase';
+import Equipe from './components/general/Equipe';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/fullstack" element={<h1>full</h1>} />
             <Route path="/backend" element={<h1>back</h1>} />
             <Route path="/frontend" element={<h1>front</h1>} />
+            <Route path="/equipe" element={<Equipe />} />
           </Routes>
         </div>
         <Footer />
