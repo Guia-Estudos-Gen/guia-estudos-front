@@ -1,3 +1,5 @@
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+
 function Equipe() {
   const equipe = [
     {
@@ -46,20 +48,20 @@ function Equipe() {
             <div className="card-body w-3/5">
               <h2 className="card-title text-2xl font-bold">{item.nome}</h2>
               <p>{item.bio}</p>
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end space-x-4">
                 <a
                   href={`https://github.com/${item.github}`}
                   className="btn btn-primary"
                   target="_blank"
                 >
-                  Github
+                  Github <BsGithub />
                 </a>
                 <a
                   href={item.linkedin}
                   className="btn btn-primary"
                   target="_blank"
                 >
-                  LinkedIn
+                  LinkedIn <BsLinkedin />
                 </a>
               </div>
             </div>
