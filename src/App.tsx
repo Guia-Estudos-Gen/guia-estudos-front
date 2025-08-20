@@ -7,6 +7,8 @@ import JsFront from './components/languages/javascript/JsFront';
 import Footer from './components/ui/Footer';
 import Navbar from './components/ui/Navbar';
 import Frontend from './components/general/Frontend';
+import JsBack from './components/languages/javascript/JsBack';
+import Backend from './components/general/Backend';
 
 function App() {
   return (
@@ -22,10 +24,13 @@ function App() {
               <Route path='java' element={<JavaBase />} />
             </Route>
             <Route path="/fullstack" element={<h1>full</h1>} />
-            <Route path="/backend" element={<h1>back</h1>} />
+            <Route path="/backend" element={<Backend/>}>
+              <Route path='javascript-backend' element={<JsBack />} />
+              <Route path='java-backend' element={<h1>Back Java</h1>} />
+            </Route>
             <Route path="/frontend" element={<Frontend />}>
-              <Route path='javascript-front' element={<JsFront />} />
-              <Route path='java-front' element={<JsFront />} />
+              <Route path='javascript-frontend' element={<JsFront />} />
+              <Route path='java-frontend' element={<h1>Front Java</h1>} />
             </Route>
           </Routes>
         </div>

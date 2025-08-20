@@ -8,8 +8,8 @@ function Frontend() {
 
       <nav>
         <ul className="flex gap-8 uppercase font-bold">
-          <NavLink className={({ isActive }: { isActive: boolean }) => `text-primary-content px-4 py-1 rounded-full ${isActive ? 'bg-accent' : 'bg-secondary'}`} to='javascript-front'>JavaScript</NavLink>
-          <NavLink className={({ isActive }: { isActive: boolean }) => `text-primary-content px-4 py-1 rounded-full ${isActive ? 'bg-accent' : 'bg-secondary'}`} to='java-front'>Java</NavLink>
+          <NavLink className={({ isActive }: { isActive: boolean }) => `text-primary-content px-4 py-1 rounded-full ${isActive ? 'bg-accent' : 'bg-secondary'}`} to='javascript-frontend'>JavaScript</NavLink>
+          <NavLink className={({ isActive }: { isActive: boolean }) => `text-primary-content px-4 py-1 rounded-full ${isActive ? 'bg-accent' : 'bg-secondary'}`} to='java-frontend'>Java</NavLink>
         </ul>
       </nav>
 
