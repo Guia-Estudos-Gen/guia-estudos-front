@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Base from './components/general/Base';
 import Home from './components/general/Home';
+import JavaBase from './components/languages/java/JavaBase';
+import JsBase from './components/languages/javascript/JsBase';
+import JsFront from './components/languages/javascript/JsFront';
 import Footer from './components/ui/Footer';
 import Navbar from './components/ui/Navbar';
-import Base from './components/general/Base';
-import JsBase from './components/languages/javascript/JsBase';
-import JavaBase from './components/languages/java/JavaBase';
+import Frontend from './components/general/Frontend';
 
 function App() {
   return (
@@ -21,7 +23,10 @@ function App() {
             </Route>
             <Route path="/fullstack" element={<h1>full</h1>} />
             <Route path="/backend" element={<h1>back</h1>} />
-            <Route path="/frontend" element={<h1>front</h1>} />
+            <Route path="/frontend" element={<Frontend />}>
+              <Route path='javascript-front' element={<JsFront />} />
+              <Route path='java-front' element={<JsFront />} />
+            </Route>
           </Routes>
         </div>
         <Footer />
