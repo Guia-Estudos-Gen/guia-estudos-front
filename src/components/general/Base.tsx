@@ -13,7 +13,10 @@ function Base() {
         </ul>
       </nav>
 
+
       <Outlet />
+      
+
     </div>
   )
 }
