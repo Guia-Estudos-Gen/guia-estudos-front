@@ -17,7 +17,7 @@ function ThemeChanger() {
       
       <input
         type="checkbox"
-        value="valentine"
+        value="garden"
         className="toggle theme-controller"
       />
       <svg
