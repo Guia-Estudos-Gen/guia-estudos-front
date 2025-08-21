@@ -15,16 +15,11 @@ function Navbar() {
     },
     {
       id: 2,
-      name: 'fullstack',
-      icon: '🧑‍💻',
-    },
-    {
-      id: 3,
       name: 'backend',
       icon: '🖥️',
     },
     {
-      id: 4,
+      id: 3,
       name: 'frontend',
       icon: '🎨',
     },
@@ -39,7 +34,7 @@ function Navbar() {
               to={`/${item.name}`}
               className={({ isActive }: { isActive: boolean }) =>
                 `uppercase text-2xl font-bold hover:text-primary hover:underline underline-offset-8 hover:animate-pulse ${
-                  isActive ? ' underline text-primary' : ''
+                  isActive ? ' underline text-accent' : ''
                 }`
               }
             >
