@@ -39,7 +39,7 @@ function Navbar() {
               to={`/${item.name}`}
               className={({ isActive }: { isActive: boolean }) =>
                 `uppercase text-2xl font-bold hover:text-primary hover:underline underline-offset-8 hover:animate-pulse ${
-                  isActive ? ' underline text-primary' : ''
+                  isActive ? ' underline text-accent' : ''
                 }`
               }
             >
