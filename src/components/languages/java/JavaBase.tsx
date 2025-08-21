@@ -189,6 +189,37 @@ function JavaBase() {
           </div>
         </div>
       </div>
+
+            <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-2" />
+        <div className="collapse-title font-semibold">Comandos Git</div>
+        <div className="collapse-content text-sm">
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="https://ik.imagekit.io/7lmae3nvh/Guia%20estudos/image.png?updatedAt=1755711101055"
+              className="max-w-sm rounded-lg shadow-2xl h-60"
+              alt="docType"
+            />
+            <div>
+              <h1 className="text-5xl font-bold">Comandos Git 🚀</h1>
+              <p className="py-6">
+                O site Comandos Git é um guia prático e bem estruturado para
+                aprender Git do básico ao avançado. Ele oferece instruções passo
+                a passo sobre instalação (para Windows, Mac e Linux),
+                configurações iniciais, criação de repositórios, clonagem e uso
+                fundamental dos principais comandos em linha de comando.
+              </p>
+              <a
+                href="https://comandosgit.github.io/"
+                target="_blank"
+                className="btn btn-secondary"
+              >
+                Ir para o site
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

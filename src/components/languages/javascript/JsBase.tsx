@@ -51,7 +51,7 @@ function JsBase() {
           </svg>
         </div>
         <div className="collapse-content text-sm">
-          <p className="py-6 text-2xl font-bold">
+          <p className="py-6 font-bold ">
             O site roadmap.sh é uma plataforma colaborativa que oferece mapas de
             aprendizado (roadmaps) para quem quer se desenvolver na área de
             tecnologia. Ele organiza conteúdos em trilhas estruturadas para
@@ -170,18 +170,48 @@ function JsBase() {
             <div>
               <h1 className="text-5xl font-bold">TypeScript Documentação 🚀</h1>
               <p className="py-6">
-                O site TypeScript é o hub
-                centralizado e oficial para aprender e dominar o TypeScript,
-                oferecendo uma documentação completa e organizada que cobre
-                desde o básico até o avançado. Ele é dividido em seções
-                cuidadosamente estruturadas — “Comece”, “Manual (Handbook)”,
-                “Referência”, “Tutoriais”, “Arquivos de Declaração” e integração
-                com a comunidade, além da ferramenta interativa Playground. Tudo
-                disponível em português, com opção de personalização visual e
-                fonte de código
+                O site TypeScript é o hub centralizado e oficial para aprender e
+                dominar o TypeScript, oferecendo uma documentação completa e
+                organizada que cobre desde o básico até o avançado. Ele é
+                dividido em seções cuidadosamente estruturadas — “Comece”,
+                “Manual (Handbook)”, “Referência”, “Tutoriais”, “Arquivos de
+                Declaração” e integração com a comunidade, além da ferramenta
+                interativa Playground. Tudo disponível em português, com opção
+                de personalização visual e fonte de código
               </p>
               <a
                 href="https://www.typescriptlang.org/pt/docs/"
+                target="_blank"
+                className="btn btn-secondary"
+              >
+                Ir para o site
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+        <input type="radio" name="my-accordion-2" />
+        <div className="collapse-title font-semibold">Comandos Git</div>
+        <div className="collapse-content text-sm">
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="https://ik.imagekit.io/7lmae3nvh/Guia%20estudos/image.png?updatedAt=1755711101055"
+              className="max-w-sm rounded-lg shadow-2xl h-60"
+              alt="docType"
+            />
+            <div>
+              <h1 className="text-5xl font-bold">Comandos Git 🚀</h1>
+              <p className="py-6">
+                O site Comandos Git é um guia prático e bem estruturado para
+                aprender Git do básico ao avançado. Ele oferece instruções passo
+                a passo sobre instalação (para Windows, Mac e Linux),
+                configurações iniciais, criação de repositórios, clonagem e uso
+                fundamental dos principais comandos em linha de comando.
+              </p>
+              <a
+                href="https://comandosgit.github.io/"
                 target="_blank"
                 className="btn btn-secondary"
               >
