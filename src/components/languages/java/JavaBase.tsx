@@ -75,7 +75,7 @@ function JavaBase() {
                   ótima ferramenta para quem está começando ou quer se orientar
                   melhor no mar de conteúdos da área tech. Se quiser, posso te
                   mostrar um exemplo de roadmap para desenvolvedor full stack ou
-                  te ajudar a montar o seu. 😄💻🧭
+                  te ajudar a montar o seu. 
                 </p>
                 <a
                   href="https://roadmap.sh"
@@ -92,7 +92,7 @@ function JavaBase() {
         <div className="collapse collapse-arrow bg-base-100 border border-base-content">
           <input type="radio" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-            Cookbook Generation 🚀
+            Cookbook Generation 
           </div>
           <div className="collapse-content text-sm">
             <div className="hero-content flex-col lg:flex-row-reverse">
@@ -102,7 +102,7 @@ function JavaBase() {
                 alt="cookbook exemplo"
               />
               <div>
-                <h1 className="text-5xl font-bold">Cookbook Generation 🚀</h1>
+                <h1 className="text-5xl font-bold">Cookbook Generation </h1>
                 <p className="py-6">
                   O site da Generation reúne materiais, projetos e exemplos
                   práticos para apoiar o aprendizado em programação. É ótimo para
@@ -133,7 +133,7 @@ function JavaBase() {
                 alt="W3Schools"
               />
               <div>
-                <h1 className="text-5xl font-bold">W3Schools 🚀</h1>
+                <h1 className="text-5xl font-bold">W3Schools </h1>
                 <p className="py-6">
                   O site W3Schools é uma plataforma educacional online voltada
                   para o ensino de tecnologias web e programação. Ele oferece
@@ -169,12 +169,12 @@ function JavaBase() {
           <div className="collapse-content text-sm">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
-                src="https://ik.imagekit.io/7lmae3nvh/Guia%20estudos/image.png?updatedAt=1755702876226"
+                src="https://ik.imagekit.io/7lmae3nvh/image.png?updatedAt=1755703544635"
                 className="max-w-sm rounded-lg shadow-2xl h-60"
                 alt="docType"
               />
               <div>
-                <h1 className="text-5xl font-bold">Java Documentação 🚀</h1>
+                <h1 className="text-5xl font-bold">Java Documentação </h1>
                 <p className="py-6">
                   O site Oracle Java Documentation funciona como o portal oficial
                   e completo para desenvolvedores que usam Java. Ele oferece
@@ -207,7 +207,7 @@ function JavaBase() {
                 alt="docType"
               />
               <div>
-                <h1 className="text-5xl font-bold">Comandos Git 🚀</h1>
+                <h1 className="text-5xl font-bold">Comandos Git </h1>
                 <p className="py-6">
                   O site Comandos Git é um guia prático e bem estruturado para
                   aprender Git do básico ao avançado. Ele oferece instruções passo
