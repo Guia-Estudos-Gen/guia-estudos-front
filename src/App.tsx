@@ -23,7 +23,6 @@ function App() {
               <Route path='javascript' element={<JsBase />} />
               <Route path='java' element={<JavaBase />} />
             </Route>
-            <Route path="/fullstack" element={<h1>full</h1>} />
             <Route path="/backend" element={<Backend/>}>
               <Route path='javascript-backend' element={<JsBack />} />
               <Route path='java-backend' element={<h1>Back Java</h1>} />
