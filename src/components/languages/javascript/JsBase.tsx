@@ -101,7 +101,7 @@ function JsBase() {
                 alt="cookbook exemplo"
               />
               <div>
-                <h1 className="text-5xl font-bold">Cookbook Generation 🚀</h1>
+                <h1 className="text-5xl font-bold">Cookbook Generation</h1>
                 <p className="py-6">
                   O site da Generation reúne materiais, projetos e exemplos
                   práticos para apoiar o aprendizado em programação. É ótimo
@@ -132,7 +132,7 @@ function JsBase() {
                 alt="W3Schools"
               />
               <div>
-                <h1 className="text-5xl font-bold">W3Schools 🚀</h1>
+                <h1 className="text-5xl font-bold">W3Schools</h1>
                 <p className="py-6">
                   O site W3Schools é uma plataforma educacional online voltada
                   para o ensino de tecnologias web e programação. Ele oferece
@@ -174,9 +174,7 @@ function JsBase() {
                 alt="docType"
               />
               <div>
-                <h1 className="text-5xl font-bold">
-                  TypeScript Documentação 🚀
-                </h1>
+                <h1 className="text-5xl font-bold">TypeScript Documentação</h1>
                 <p className="py-6">
                   O site TypeScript é o hub centralizado e oficial para aprender
                   e dominar o TypeScript, oferecendo uma documentação completa e
@@ -210,7 +208,7 @@ function JsBase() {
                 alt="docType"
               />
               <div>
-                <h1 className="text-5xl font-bold">Comandos Git 🚀</h1>
+                <h1 className="text-5xl font-bold">Comandos Git</h1>
                 <p className="py-6">
                   O site Comandos Git é um guia prático e bem estruturado para
                   aprender Git do básico ao avançado. Ele oferece instruções

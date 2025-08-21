@@ -32,14 +32,6 @@ function JsBack() {
         'O Node.js é um ambiente de execução JavaScript de código aberto e multiplataforma que permite aos desenvolvedores criar servidores, aplicativos web, ferramentas de linha de comando e scripts. Ele utiliza o motor V8 do Google Chrome e adota um modelo de I/O assíncrono e orientado a eventos, o que o torna eficiente e adequado para aplicações em tempo real. Além disso, o Node.js possui um vasto ecossistema de módulos disponíveis por meio do npm (Node Package Manager), facilitando a construção de aplicações escaláveis e de alto desempenho.',
       link: 'https://nodejs.org/pt',
     },
-    {
-      nome: 'Vue.js',
-      tipo: 'Framework',
-      logo: 'https://www.svgrepo.com/show/303494/vue-9-logo.svg',
-      descricao:
-        'Vue.js é um framework progressivo de JavaScript que permite criar interfaces de usuário de forma reativa e escalável. Ele combina ideias do React e do Angular, mas com uma curva de aprendizado mais suave. Muito utilizado em aplicações web modernas, Vue é valorizado pela simplicidade, flexibilidade e por ter uma comunidade forte, especialmente no mercado asiático e europeu.',
-      link: 'https://nodejs.org/pt',
-    },
   ];
 
   const extensoes = [
@@ -162,13 +154,13 @@ function JsBack() {
                 montar o seu. 😄💻🧭
               </p>
               <button className="btn btn-secondary">
-                <a href="https://roadmap.sh/frontend" target="_blank">
-                  Roadmap Frontend
+                <a href="https://roadmap.sh/backend" target="_blank">
+                  Roadmap Backend
                 </a>
               </button>
               <button className="btn btn-secondary mx-2">
-                <a href="https://roadmap.sh/react" target="_blank">
-                  Roadmap React
+                <a href="https://roadmap.sh/javascript" target="_blank">
+                  Roadmap Javascript
                 </a>
               </button>
             </div>
@@ -177,9 +169,7 @@ function JsBack() {
       </div>
       <div className="collapse collapse-arrow bg-base-100 border border-base-content">
         <input type="checkbox" name="my-accordion-2" />
-        <div className="collapse-title font-semibold">
-          Bibliotecas/Frameworks
-        </div>
+        <div className="collapse-title font-semibold">Bibliotecas/Frameworks</div>
         <div className="collapse-content text-md">
           <ul className="list bg-base-100 rounded-box">
             {libframe.map((tecnologia, id) => (

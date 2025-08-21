@@ -25,11 +25,11 @@ function App() {
             </Route>
             <Route path="/backend" element={<Backend/>}>
               <Route path='javascript-backend' element={<JsBack />} />
-              <Route path='java-backend' element={<h1>Back Java</h1>} />
+              <Route path='java-backend' element={<h1>Backend Java em desenvolvimento...</h1>} />
             </Route>
             <Route path="/frontend" element={<Frontend />}>
               <Route path='javascript-frontend' element={<JsFront />} />
-              <Route path='java-frontend' element={<h1>Front Java</h1>} />
+              <Route path='java-frontend' element={<h1>Frontend Java em desenvolvimento...</h1>} />
             </Route>
           </Routes>
         </div>
