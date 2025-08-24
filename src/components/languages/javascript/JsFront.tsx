@@ -130,7 +130,7 @@ function JsFront() {
                 ferramenta para quem está começando ou quer se orientar melhor
                 no mar de conteúdos da área tech. Se quiser, posso te mostrar um
                 exemplo de roadmap para desenvolvedor full stack ou te ajudar a
-                montar o seu. 😄💻🧭
+                montar o seu. 
               </p>
               <button className="btn btn-secondary">
                 <a href="https://roadmap.sh/frontend" target="_blank">

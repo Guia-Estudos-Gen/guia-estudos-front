@@ -75,7 +75,7 @@ function JsBase() {
                   ótima ferramenta para quem está começando ou quer se orientar
                   melhor no mar de conteúdos da área tech. Se quiser, posso te
                   mostrar um exemplo de roadmap para desenvolvedor full stack ou
-                  te ajudar a montar o seu. 😄💻🧭
+                  te ajudar a montar o seu. 
                 </p>
                 <a
                   href="https://roadmap.sh"
@@ -91,7 +91,7 @@ function JsBase() {
         <div className="collapse collapse-arrow bg-base-100 border border-base-content">
           <input type="checkbox" name="my-accordion-2" />
           <div className="collapse-title font-semibold">
-            Cookbook Generation 🚀
+            Cookbook Generation 
           </div>
           <div className="collapse-content text-sm">
             <div className="hero-content flex-col lg:flex-row-reverse">
