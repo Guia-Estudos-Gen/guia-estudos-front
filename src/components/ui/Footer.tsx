@@ -12,7 +12,7 @@ function Footer() {
         <Link to='/equipe' className="font-bold text-lg text-center hover:underline cursor-pointer">Conheça a Equipe</Link>
       </div>
       <div className="flex flex-col justify-center items-center">
-        <div className="badge badge-outline badge-info hover:bg-info hover:text-neutral px-8 text-lg font-semibold py-4 cursor-pointer">Envie sujestão de conteúdo aqui</div>
+        <Link to='contato' className="badge badge-outline badge-info hover:bg-info hover:text-neutral px-8 text-lg font-semibold py-4 cursor-pointer">Envie sujestão de conteúdo aqui</Link>
       </div>
     </div>
   );
