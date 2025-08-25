@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 function Equipe() {
   const equipe = [
@@ -25,7 +25,7 @@ function Equipe() {
       github: 'dgsferreira',
       linkedin:
         'https://www.linkedin.com/in/douglas-casetta-ferreira-168334241',
-      foto: 'https://ik.imagekit.io/7lmae3nvh/image.png?updatedAt=1755629115299',
+      foto: 'https://ik.imagekit.io/7lmae3nvh/IMG-20250209-WA0003.jpg?updatedAt=1756151385246',
     },
   ];
 
