@@ -36,7 +36,7 @@ function Contato() {
         () => {
           console.log('SUCCESS!');
           // console.log(templateEmail.from_email);
-          toast('Mensagem enviada com sucesso!', {
+          toast('E-mail enviado com sucesso!', {
             position: 'top-right',
             autoClose: 2000,
             hideProgressBar: false,
