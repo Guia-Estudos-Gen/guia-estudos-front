@@ -10,6 +10,7 @@ import Frontend from './components/general/Frontend';
 import JsBack from './components/languages/javascript/JsBack';
 import Backend from './components/general/Backend';
 import Equipe from './components/general/Equipe';
+import Contato from './components/general/Contato';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
               <Route path='java-frontend' element={<h1>Frontend Java em desenvolvimento...</h1>} />
             </Route>
             <Route path="/equipe" element={<Equipe />} />
+            <Route path="/contato" element={<Contato />} />
           </Routes>
         </div>
         <Footer />
