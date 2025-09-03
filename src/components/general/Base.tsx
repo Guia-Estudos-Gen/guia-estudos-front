@@ -4,7 +4,7 @@ function Base() {
   return (
     <div className="space-y-4 flex flex-col items-center">
       <h1 className="text-4xl font-bold font-mono uppercase text-secondary">De volta pra base</h1>
-      <p className="font-semibold ">Sempre bom dar aquela voltadinha no conteúdo básico, pra entender melhor como as coisas funcionam... Escolha abaixo, a linguagem que fizer mais sentido:</p>
+      <p className="font-semibold w-2/3 text-center">Sempre bom dar aquela voltadinha no conteúdo básico, pra entender melhor como as coisas funcionam... Escolha abaixo, a linguagem que fizer mais sentido:</p>
 
       <nav>
         <ul className="flex gap-8 uppercase font-bold">
