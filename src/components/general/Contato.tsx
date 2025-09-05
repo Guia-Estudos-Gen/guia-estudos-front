@@ -1,41 +1,59 @@
-import { SubmitHandler, useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
+import { SubmitHandler, useForm } from 'react-hook-form';
+import { useNavigate } from 'react-router-dom';
+import { toast, Bounce } from 'react-toastify';
 
 interface ContatoProps {
-  nome: string,
-  email: string,
-  url: string,
-  mensagem: string
+  nome: string;
+  email: string;
+  url: string;
+  mensagem: string;
 }
 
 function Contato() {
+  const { register, handleSubmit } = useForm<ContatoProps>();
 
-  const {register, handleSubmit} = useForm<ContatoProps>()
+  const navigate = useNavigate();
 
   const onSubmit: SubmitHandler<ContatoProps> = (data) => {
-    console.log(data)
     const templateEmail = {
       from_name: data.nome,
       from_email: data.email,
       mensagem: data.mensagem,
-      url: data.url
-    }
+      url: data.url,
+    };
 
-    console.log(templateEmail);
-
-    emailjs.send(import.meta.env.VITE_SERVICE_MAIL_KEY, import.meta.env.VITE_TEMPLATE_MAIL_KEY, templateEmail, {
-        publicKey: import.meta.env.VITE_PUBLIC_MAIL_KEY,
-      })
+    emailjs
+      .send(
+        import.meta.env.VITE_SERVICE_MAIL_KEY,
+        import.meta.env.VITE_TEMPLATE_MAIL_KEY,
+        templateEmail,
+        {
+          publicKey: import.meta.env.VITE_PUBLIC_MAIL_KEY,
+        }
+      )
       .then(
         () => {
           console.log('SUCCESS!');
           // console.log(templateEmail.from_email);
+          toast('E-mail enviado com sucesso!', {
+            position: 'top-right',
+            autoClose: 2000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'dark',
+            transition: Bounce,
+          });
+          navigate('/');
         },
         (error: any) => {
           console.log('FAILED...', error.text);
-        },
+        }
       );
-  }
+  };
 
   return (
     <div className="max-w-5xl mx-auto flex flex-col items-center gap-6 py-10">
@@ -55,7 +73,7 @@ function Contato() {
               type="text"
               className="input w-full"
               placeholder="Nome completo"
-              {...register("nome")}
+              {...register('nome')}
             />
             <p className="label text-error">obrigatório</p>
           </fieldset>
@@ -68,7 +86,7 @@ function Contato() {
               type="email"
               required
               placeholder="Meu melhor e-mail"
-              {...register("email")}
+              {...register('email')}
             />
             <div className="flex gap-6">
               <p className="label text-error">obrigatório</p>
@@ -82,7 +100,7 @@ function Contato() {
             type="text"
             className="input w-full"
             placeholder="URL do conteúdo indicado"
-            {...register("url")}
+            {...register('url')}
           />
           <p className="label text-error">obrigatório</p>
         </fieldset>
@@ -91,7 +109,7 @@ function Contato() {
           <textarea
             className="textarea h-24 w-full resize-none"
             placeholder="Mensagem bonita pra galera do projeto"
-            {...register("mensagem")}
+            {...register('mensagem')}
           ></textarea>
           <div className="label">Opicional</div>
         </fieldset>

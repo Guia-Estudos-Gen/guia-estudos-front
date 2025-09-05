@@ -11,10 +11,12 @@ import JsBack from './components/languages/javascript/JsBack';
 import Backend from './components/general/Backend';
 import Equipe from './components/general/Equipe';
 import Contato from './components/general/Contato';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <>
+      <ToastContainer />
       <BrowserRouter>
         <Navbar />
         <div className="min-h-[calc(100vh-8rem)] container mx-auto">
