@@ -2,7 +2,7 @@ import Modal from '../ui/Modal';
 
 function Home() {
   return (
-    <div className="container mx-auto flex flex-col gap-4 pt-10">
+    <div className="p-4 container mx-auto flex flex-col gap-4 pt-10">
       <h1 className="text-4xl font-mono font-bold text-center text-error">
         Guia de Estudos Pós-Programa
       </h1>

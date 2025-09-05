@@ -3,9 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 function Backend() {
   return (
     <div className="space-y-4 flex flex-col items-center">
-      <h1 className="text-4xl font-bold font-mono uppercase text-secondary">
-        Vamos começar o backend
-      </h1>
+      <h1 className="text-4xl font-bold font-mono uppercase text-secondary text-center">Vamos começar o backend</h1>
       <p className="font-semibold w-2/3 text-center">
         O backend é como o fígado do sistema: ninguém vê, mas se parar de
         funcionar, todo mundo descobre rapidinho. Enquanto o frontend fica
