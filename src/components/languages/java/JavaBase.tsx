@@ -13,9 +13,9 @@ function JavaBase() {
   };
 
   return (
-    <div className="max-w-2/3 pt-8">
+    <div className="max-w-100 lg:max-w-2/3 pt-8">
       {/* Chat inicial */}
-      <div id="chat" className="border-2 rounded-4xl p-6">
+      <div id="chat" className="border-2 rounded-4xl p-4 lg:p-6">
         <ChatSite
           texto={"Em que eu posso te ajudar, meu grande?"}
           hora="03:45"
@@ -51,7 +51,7 @@ function JavaBase() {
               <path d="M121.215 210.72c-1.867.56-4.854 1.12-8.96 1.68-3.92.56-8.027.84-12.32.84-4.107 0-7.84-.28-11.2-.84-3.174-.56-5.88-1.68-8.12-3.36s-4.014-3.92-5.32-6.72c-1.12-2.987-1.68-6.813-1.68-11.48v-84c0-4.293.746-7.933 2.24-10.92 1.68-3.173 4.013-5.973 7-8.4s6.626-4.573 10.92-6.44c4.48-2.053 9.24-3.827 14.28-5.32a106.176 106.176 0 0 1 15.68-3.36 95.412 95.412 0 0 1 16.24-1.4c8.96 0 16.053 1.773 21.28 5.32 5.226 3.36 7.84 8.96 7.84 16.8 0 2.613-.374 5.227-1.12 7.84-.747 2.427-1.68 4.667-2.8 6.72a133.1 133.1 0 0 0-12.04.56c-4.107.373-8.12.933-12.04 1.68s-7.654 1.587-11.2 2.52c-3.36.747-6.254 1.68-8.68 2.8v95.48zm45.172-22.4c0-7.84 2.426-14.373 7.28-19.6s11.48-7.84 19.88-7.84 15.026 2.613 19.88 7.84 7.28 11.76 7.28 19.6-2.427 14.373-7.28 19.6-11.48 7.84-19.88 7.84-15.027-2.613-19.88-7.84-7.28-11.76-7.28-19.6z"></path>
             </svg>
           </div>
-          <div className="collapse-content text-sm">
+          <div className="collapse-content text-base mx-auto text-center w-96 lg:w-fit lg:text-left">
             <div className="hero-content flex-col lg:flex-row-reverse">
               {/* link novo do imagekit aqui */}
               <img
@@ -59,8 +59,8 @@ function JavaBase() {
                 className="max-w-sm rounded-lg shadow-2xl h-60 "
                 alt="roadmap exemplo"
               />
-              <div>
-                <h1 className="text-5xl font-bold">Roadmap 🚀</h1>
+              <div className='w-100 px-2 lg:w-fit lg:px-0'>
+                <h1 className="text-4xl lg:text-5xl font-bold">Roadmap 🚀</h1>
                 <p className="py-6">
                   O site roadmap.sh é uma plataforma colaborativa que oferece
                   mapas de aprendizado (roadmaps) para quem quer se desenvolver
@@ -94,15 +94,15 @@ function JavaBase() {
           <div className="collapse-title font-semibold">
             Cookbook Generation 
           </div>
-          <div className="collapse-content text-sm">
+          <div className="collapse-content text-base mx-auto text-center w-96 lg:w-fit lg:text-left">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src="https://ik.imagekit.io/7lmae3nvh/Guia%20estudos/image.png?updatedAt=1755702599408"
                 className="max-w-sm rounded-lg shadow-2xl h-60"
                 alt="cookbook exemplo"
               />
-              <div>
-                <h1 className="text-5xl font-bold">Cookbook Generation </h1>
+              <div className='w-100 px-2 lg:w-fit lg:px-0'>
+                <h1 className="text-4xl lg:text-5xl font-bold">Cookbook Generation </h1>
                 <p className="py-6">
                   O site da Generation reúne materiais, projetos e exemplos
                   práticos para apoiar o aprendizado em programação. É ótimo para
@@ -125,15 +125,15 @@ function JavaBase() {
         <div className="collapse collapse-arrow bg-base-100 border border-base-content">
           <input type="checkbox" name="my-accordion-2" />
           <div className="collapse-title font-semibold">W3Schools</div>
-          <div className="collapse-content text-sm">
+          <div className="collapse-content text-base mx-auto text-center w-96 lg:w-fit lg:text-left">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src="https://ik.imagekit.io/7lmae3nvh/Guia%20estudos/image.png?updatedAt=1755702514492"
                 className="max-w-sm rounded-lg shadow-2xl h-60"
                 alt="W3Schools"
               />
-              <div>
-                <h1 className="text-5xl font-bold">W3Schools </h1>
+              <div className='w-100 px-2 lg:w-fit lg:px-0'>
+                <h1 className="text-4xl lg:text-5xl font-bold">W3Schools </h1>
                 <p className="py-6">
                   O site W3Schools é uma plataforma educacional online voltada
                   para o ensino de tecnologias web e programação. Ele oferece
@@ -166,15 +166,15 @@ function JavaBase() {
           <div className="collapse-title font-semibold">
             Java Documentação
           </div>
-          <div className="collapse-content text-sm">
+          <div className="collapse-content text-base mx-auto text-center w-96 lg:w-fit lg:text-left">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src="https://ik.imagekit.io/7lmae3nvh/image.png?updatedAt=1755703544635"
                 className="max-w-sm rounded-lg shadow-2xl h-60"
                 alt="docType"
               />
-              <div>
-                <h1 className="text-5xl font-bold">Java Documentação </h1>
+              <div className='w-100 px-2 lg:w-fit lg:px-0'>
+                <h1 className="text-4xl lg:text-5xl font-bold">Java Documentação </h1>
                 <p className="py-6">
                   O site Oracle Java Documentation funciona como o portal oficial
                   e completo para desenvolvedores que usam Java. Ele oferece
@@ -199,15 +199,15 @@ function JavaBase() {
         <div className="collapse collapse-arrow bg-base-100 border border-base-content">
           <input type="checkbox" name="my-accordion-2" />
           <div className="collapse-title font-semibold">Comandos Git</div>
-          <div className="collapse-content text-sm">
+          <div className="collapse-content text-base mx-auto text-center w-96 lg:w-fit lg:text-left">
             <div className="hero-content flex-col lg:flex-row-reverse">
               <img
                 src="https://ik.imagekit.io/7lmae3nvh/Guia%20estudos/image.png?updatedAt=1755711101055"
                 className="max-w-sm rounded-lg shadow-2xl h-60"
                 alt="docType"
               />
-              <div>
-                <h1 className="text-5xl font-bold">Comandos Git </h1>
+              <div className='w-100 px-2 lg:w-fit lg:px-0'>
+                <h1 className="text-4xl lg:text-5xl font-bold">Comandos Git </h1>
                 <p className="py-6">
                   O site Comandos Git é um guia prático e bem estruturado para
                   aprender Git do básico ao avançado. Ele oferece instruções passo

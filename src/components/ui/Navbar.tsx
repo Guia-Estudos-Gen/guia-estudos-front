@@ -48,10 +48,8 @@ function Navbar() {
       </div>
       <div className="navbar bg-base-100 shadow-sm lg:hidden">
         <div className="navbar-start">
-          <div className="dropdown">
-            <div
-              tabIndex={0}
-              role="button"
+          <details className="dropdown">
+            <summary
               className="btn btn-ghost btn-circle"
             >
               <svg
@@ -69,7 +67,7 @@ function Navbar() {
                   d="M4 6h16M4 12h16M4 18h7"
                 />{' '}
               </svg>
-            </div>
+            </summary>
             <ul
               tabIndex={0}
               className="menu menu-sm w-screen h-screen dropdown-content bg-base-100 rounded-box z-1 mt-3 p-2 shadow"
@@ -78,18 +76,26 @@ function Navbar() {
                 <li key={item.id}>
                   <NavLink
                     to={`/${item.name}`}
+                    role="button"
                     className={({ isActive }: { isActive: boolean }) =>
                       `uppercase text-2xl font-bold hover:text-primary hover:underline underline-offset-8 hover:animate-pulse ${
                         isActive ? ' underline text-accent' : ''
                       }`
                     }
+                    onClick={(e) => {
+                      // Fecha o <details> dropdown
+                      const details = (e.target as HTMLElement).closest(
+                        'details'
+                      );
+                      if (details) details.removeAttribute('open');
+                    }}
                   >
                     {item.name} {item.icon}
                   </NavLink>
                 </li>
               ))}
             </ul>
-          </div>
+          </details>
         </div>
         <div className="navbar-end">
           <ThemeChanger />
