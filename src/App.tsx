@@ -19,6 +19,7 @@ function App() {
       <ToastContainer />
       <BrowserRouter>
         <Navbar />
+        <h1 className='text-teal-800 font-bold text-4xl'>Testando vercel</h1>
         <div className="min-h-[calc(100vh-8rem)] container mx-auto">
           <Routes>
             <Route path="/" element={<Home />} />
